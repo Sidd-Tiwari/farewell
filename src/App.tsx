@@ -282,21 +282,50 @@ const PremiumFarewellWebsite: React.FC = () => {
         }
 
         .readable-text {
-          color: #334155;
+          color: #1e293b;
           line-height: 1.85;
         }
 
         .dark .readable-text {
-          color: #e2e8f0;
+          color: #f8fafc;
         }
 
         .readable-muted {
-          color: #475569;
+          color: #334155;
           line-height: 1.75;
         }
 
         .dark .readable-muted {
-          color: #cbd5e1;
+          color: #e2e8f0;
+        }
+
+        /* Strong dark-mode readability fix */
+        .dark .text-slate-400,
+        .dark .text-slate-500,
+        .dark .text-slate-600,
+        .dark .text-slate-700 {
+          color: #e2e8f0 !important;
+        }
+
+        .dark .text-slate-300,
+        .dark .text-slate-200 {
+          color: #f8fafc !important;
+        }
+
+        .dark .text-white {
+          color: #ffffff !important;
+        }
+
+        .dark input,
+        .dark textarea,
+        .dark input::placeholder,
+        .dark textarea::placeholder {
+          color: #ffffff !important;
+        }
+
+        .dark input::placeholder,
+        .dark textarea::placeholder {
+          opacity: 0.82;
         }
 
         .text-soft-glow {
