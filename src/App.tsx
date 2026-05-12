@@ -300,11 +300,39 @@ const PremiumFarewellWebsite: React.FC = () => {
         }
 
         /* Strong dark-mode readability fix */
-        .dark .text-slate-400,
-        .dark .text-slate-500,
+        .dark .text-slate-900,
+        .dark .text-slate-800,
+        .dark .text-slate-700,
         .dark .text-slate-600,
-        .dark .text-slate-700 {
-          color: #e2e8f0 !important;
+        .dark .text-slate-500,
+        .dark .text-slate-400 {
+          color: #f8fafc !important;
+        }
+
+        .dark .font-cinzel,
+        .dark .font-lora,
+        .dark h1,
+        .dark h2,
+        .dark h3,
+        .dark p,
+        .dark span,
+        .dark label,
+        .dark a {
+          color: inherit;
+        }
+
+        .dark .glass-effect,
+        .dark .glass-effect p,
+        .dark .glass-effect h3,
+        .dark .glass-effect span,
+        .dark .glass-effect label,
+        .dark .glass-effect a {
+          color: #f8fafc !important;
+        }
+
+        .dark .glass-effect .readable-muted,
+        .dark .glass-effect .readable-text {
+          color: #f8fafc !important;
         }
 
         .dark .text-slate-300,
