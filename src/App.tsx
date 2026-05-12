@@ -1,5 +1,3 @@
-/// <reference types="vite/client" />
-
 import React, { useState, useEffect, useRef } from 'react';
 import {
   ChevronDown,
@@ -30,7 +28,7 @@ interface FormStatus {
 
 const PremiumFarewellWebsite: React.FC = () => {
   const darkMode = true;
-  const WEB3FORMS_ACCESS_KEY = import.meta.env.VITE_WEB3FORMS_ACCESS_KEY as string | undefined;
+  const WEB3FORMS_ACCESS_KEY = process.env.REACT_APP_WEB3FORMS_ACCESS_KEY;
 
   const [scrollY, setScrollY] = useState(0);
   const [typedText, setTypedText] = useState('');
@@ -110,7 +108,7 @@ const PremiumFarewellWebsite: React.FC = () => {
     if (!WEB3FORMS_ACCESS_KEY) {
       setFormStatus({
         type: 'error',
-        message: 'Web3Forms key is missing. Please add VITE_WEB3FORMS_ACCESS_KEY in Vercel Environment Variables.',
+        message: 'Web3Forms key is missing. Please add REACT_APP_WEB3FORMS_ACCESS_KEY in Vercel Environment Variables.',
       });
       return;
     }
