@@ -219,7 +219,7 @@ const PremiumFarewellWebsite: React.FC = () => {
   ];
 
   const gratitudePeople = [
-    { name: 'Dean Sir', emoji: '👔', highlight: true, impact: 'Life Changer' },
+    { name: 'Dean Sir', emoji: '👔', impact: 'Life Changer' },
     { name: 'HODs', emoji: '📚', impact: 'Mentors' },
     { name: 'DSW Sir', emoji: '🎓', impact: 'Guide' },
     { name: 'Chancellor Sir', emoji: '⭐', impact: 'Inspiration' },
@@ -227,7 +227,6 @@ const PremiumFarewellWebsite: React.FC = () => {
     { name: 'Seniors', emoji: '🌟', impact: 'Guides' },
     { name: 'Batchmates', emoji: '👬', impact: 'Brothers' },
     { name: 'Juniors', emoji: '🌱', impact: 'Responsibility' },
-    { name: 'Guard Uncle', emoji: '🙏', impact: 'Support' },
   ];
 
   const messages = [
@@ -682,9 +681,9 @@ const PremiumFarewellWebsite: React.FC = () => {
         </div>
 
         <div className="relative z-10 max-w-4xl mx-auto text-center animate-fade-in-up">
-          <div className="inline-block mb-6 px-6 py-3 bg-gradient-to-r from-indigo-100 to-purple-100 dark:from-indigo-900/50 dark:to-purple-900/50 rounded-full border border-indigo-300 dark:border-indigo-500/70 animate-scale-in shadow-lg shadow-indigo-950/30">
-  <p className="text-sm font-extrabold text-red-700 dark:text-red-300 uppercase tracking-widest flex items-center gap-2">
-    <Sparkles size={16} />
+      <div className="inline-block mb-6 px-6 py-3 bg-gradient-to-r from-indigo-100 to-purple-100 dark:from-indigo-900/50 dark:to-purple-900/50 rounded-full border border-indigo-300 dark:border-indigo-500/70 animate-scale-in shadow-lg shadow-indigo-950/30">
+  <p className="text-sm font-extrabold text-red-600 dark:text-red-400 uppercase tracking-widest flex items-center gap-2">
+    <Sparkles size={16} className="text-red-600 dark:text-red-400" />
     Class of 2022-2026
   </p>
 </div>
