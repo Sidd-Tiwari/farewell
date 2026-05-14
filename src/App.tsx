@@ -225,7 +225,7 @@ const PremiumFarewellWebsite: React.FC = () => {
     { name: 'Chancellor Sir', emoji: '⭐', impact: 'Inspiration' },
     { name: 'Teaching Staff', emoji: '👨‍🏫', impact: 'Teachers' },
     { name: 'Seniors', emoji: '🌟', impact: 'Guides' },
-    { name: 'Batchmates', emoji: '👬', impact: 'Brothers' },
+    { name: 'Batchmates', emoji: '👬', impact: 'Brothers' highlight: true},
     { name: 'Juniors', emoji: '🌱', impact: 'Responsibility' },
   ];
 
