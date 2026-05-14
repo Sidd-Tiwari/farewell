@@ -314,7 +314,6 @@ const PremiumFarewellWebsite: React.FC = () => {
         .dark h2,
         .dark h3,
         .dark p,
-        .dark span,
         .dark label,
         .dark a {
           color: inherit;
@@ -674,6 +673,7 @@ const PremiumFarewellWebsite: React.FC = () => {
               transform: `translate(${mousePosition.x * -20}px, ${mousePosition.y * -20}px)`,
             }}
           />
+          
           <div
             className="absolute top-1/2 left-1/2 w-72 h-72 bg-pink-400 rounded-full mix-blend-multiply filter blur-3xl opacity-10"
             style={{ animation: 'float 12s ease-in-out infinite 4s' }}
