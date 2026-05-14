@@ -685,7 +685,7 @@ const PremiumFarewellWebsite: React.FC = () => {
   <p className="text-sm font-extrabold uppercase tracking-widest flex items-center gap-2">
     <Sparkles size={16} className="text-red-600 dark:text-red-400" />
 
-    <span className="text-red-600 dark:text-red-400">
+    <span className="text-red-700">
       Class of 2022-2026
     </span>
   </p>
